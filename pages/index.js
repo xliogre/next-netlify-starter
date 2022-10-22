@@ -12,14 +12,9 @@ export default function Home() {
 		      <script type="text/javascript" src="datafeeds/udf/dist/bundle.js"></script>
       </Head>
 
-      <main>
-        <Header title="Welcome to my app!" />
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
-      </main>
-
-      <Footer />
+      <body style="margin:0px;">
+        <div id="tv_chart_container"></div>
+      </body>
     </div>
   )
 }
